@@ -19,7 +19,7 @@ if confirm_input:
       if int(i) in answer:
         b += 1
     n += 1
-  output = ','.join(user).replace(',','')
+  st.number_output = ','.join(user).replace(',','')
   st.write(f'{output}: {a}A{b}B')
 t = round((time.time() - t), 3)   
 st.write(f'答對了！總共猜了 {num} 次，用了 {t} 秒')   

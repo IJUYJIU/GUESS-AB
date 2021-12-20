@@ -9,7 +9,7 @@ t = time.time()
 while a!=4:
   num += 1         
   a = b = n = 0
-  user = list(input('輸入四個數字：'))
+  user = list(st.number_input('輸入四個數字：'))
   for i in user:
     if int(user[n]) == answer[n]:
       a += 1

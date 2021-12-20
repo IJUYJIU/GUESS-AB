@@ -9,7 +9,7 @@ t = time.time()
 while a!=4:
   num += 1         
   a = b = n = 0
-  user = list(st.number_input('輸入四個數字'))
+  user = st.number_input('輸入四個數字')
 confirm_input = st.button("ok")
 if confirm_input:
   for i in user:

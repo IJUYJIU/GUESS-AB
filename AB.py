@@ -10,8 +10,8 @@ while a!=4:
   num += 1         
   a = b = n = 0
   user = list(st.number_input('輸入四個數字'))
- confirm_input = st.button("ok")
   for i in user:
+confirm_input = st.button("ok")
     if int(user[n]) == answer[n]:
       a += 1
     else:

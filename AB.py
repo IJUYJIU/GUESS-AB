@@ -11,7 +11,7 @@ t = time.time()
 while a!=4:
   num += 1         
   a = b = n = 0
-  title = st.text_input('Movie title', 'abcd')
+  title = st.text_input('Movie title', 'Life of Brian')
   st.write('The current movie title is', title)
   
   h = list(title)

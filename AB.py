@@ -1,4 +1,3 @@
 import streamlit as st
-title = st.text_input('Movie title', 'Life of Brian')
-st.write('The current movie title is', title)
-
+default_value_goes_here = '1234'
+user_input = st.text_input("label goes here", default_value_goes_here)

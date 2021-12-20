@@ -1,6 +1,6 @@
 import streamlit as st
-title = st.text_input('Movie title', 'Life of Brian')
-st.write('The current movie title is', title)
+#title = st.text_input('Movie title', 'Life of Brian')
+#st.write('The current movie title is', title)
 
 '''
 import random
@@ -12,8 +12,10 @@ t = time.time()
 while a!=4:
   num += 1         
   a = b = n = 0
-  digits = st.text_input('輸入四個數字', '1234')
-  h = list(digits)
+  title = st.text_input('Movie title', '1234')
+  st.write('The current movie title is', title)
+  
+  h = list(title)
 confirm_input = st.button("ok")
 if confirm_input:
     for i in user:

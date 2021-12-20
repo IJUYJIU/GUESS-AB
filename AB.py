@@ -2,7 +2,6 @@ import streamlit as st
 #title = st.text_input('Movie title', 'Life of Brian')
 #st.write('The current movie title is', title)
 
-'''
 import random
 import time       
 w = random.sample(range(1, 10), 4)
@@ -30,4 +29,3 @@ if confirm_input:
 t = round((time.time() - t), 3)   
 st.write(f'答對了！總共猜了 {num} 次，用了 {t} 秒')   
 st.write(w)
-'''

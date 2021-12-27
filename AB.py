@@ -20,11 +20,11 @@ while a!=4:
   if confirm_input:
     for i in user:
       if int(user[n]) == answer[n]:
-         a += 1
+       a += 1
       else:
         if int(i) in answer:
-         b += 1
-        n += 1
+       b += 1
+       n += 1
   output = ','.join(user).replace(',','')
   print(f'{output}: {a}A{b}B')
 t = round((time.time() - t), 3)   # 當 a 等於 4 時，計算結束和開始的時間差

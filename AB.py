@@ -19,7 +19,7 @@ while a!=4:
   a = b = n = 0
 #  r = st.text_input('輸入四個數字：', default_value_goes_here)
 #  user = list(r)
-  confirm_input = st.button("ok")
+#  confirm_input = st.button("ok")
   if confirm_input:
     for i in user:
        if int(user[n]) == answer[n]:

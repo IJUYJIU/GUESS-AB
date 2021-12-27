@@ -31,7 +31,8 @@ while a!=4:
          b += 1
        n += 1
   output = ','.join(user).replace(',','')
-  print(f'{output}: {a}A{b}B')
+  #print(f'{output}: {a}A{b}B')
+  st.write('output:',a,'A', b, 'B')
 #if confirm_input:
 #  t = round((time.time() - t), 3)   # 當 a 等於 4 時，計算結束和開始的時間差
 #  print(f'答對了！總共猜了 {num} 次，用了 {t} 秒')   # 印出對應的文字

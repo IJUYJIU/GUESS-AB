@@ -5,7 +5,8 @@ import streamlit as st
 import random
 import time        # import time 模組
 answer = random.sample(range(1, 10), 4)
-print(answer)
+#print(answer)
+st.write(answer)
 a = b = n = 0
 num = 0            # 新增 num 變數為 0，作為計算次數使用
 t = time.time()    # 新增 t 變數為現在的時間
@@ -21,7 +22,7 @@ while a!=4:
   user = list(r)
   confirm_input = st.button("ok")
   if confirm_input:
-    confirm_input=False
+    confirm_input=0
     for i in user:
        if int(user[n]) == answer[n]:
         a += 1

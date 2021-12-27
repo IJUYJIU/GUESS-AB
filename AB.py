@@ -14,6 +14,7 @@ default_value_goes_here = '1234'
 while a!=4:
   num += 1         # 每次重複時將 num 增加 1
   a = b = n = 0
+  user = list("r")
   r = ("st.text_input('輸入四個數字：', default_value_goes_here)")
   user = list("r")
   confirm_input = st.button("ok")

@@ -23,7 +23,7 @@ while a!=4:
        a += 1
       else:
         if int(i) in answer:
-       b += 1
+          b += 1
        n += 1
   output = ','.join(user).replace(',','')
   print(f'{output}: {a}A{b}B')

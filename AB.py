@@ -19,7 +19,7 @@ while a!=4:
   confirm_input = st.button("ok")
   if confirm_input:
     for i in user:
-      if int(user[n]) == answer[n]:
+       if int(user[n]) == answer[n]:
        a += 1
       else:
         if int(i) in answer:

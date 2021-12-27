@@ -17,13 +17,13 @@ while a!=4:
   user = list(st.text_input('輸入四個數字：', default_value_goes_here))
   confirm_input = st.button("ok")
   if confirm_input:
-  for i in user:
-    if int(user[n]) == answer[n]:
-      a += 1
-    else:
-      if int(i) in answer:
-        b += 1
-    n += 1
+    for i in user:
+      if int(user[n]) == answer[n]:
+        a += 1
+      else:
+        if int(i) in answer:
+          b += 1
+        n += 1
   output = ','.join(user).replace(',','')
   print(f'{output}: {a}A{b}B')
 t = round((time.time() - t), 3)   # 當 a 等於 4 時，計算結束和開始的時間差

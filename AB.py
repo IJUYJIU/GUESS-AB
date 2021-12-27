@@ -20,7 +20,7 @@ while a!=4:
   if confirm_input:
     for i in user:
       if int(user[n]) == answer[n]:
-        a += 1
+          a += 1
       else:
         if int(i) in answer:
           b += 1

@@ -1,5 +1,5 @@
-import random
 
+import streamlit as st
 
 st.title('1A2B game')
 st.markdown("""
